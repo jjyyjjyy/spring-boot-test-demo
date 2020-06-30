@@ -1,0 +1,12 @@
+= Spring Boot Test demo project
+:icons: font
+:hardbreaks:
+:sectlinks:
+:sectnums:
+:stem:
+
+== dependencies
+
+* junit-jupiter
+* mockito
+* testcontainers
