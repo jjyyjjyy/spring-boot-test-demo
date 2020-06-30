@@ -1,0 +1,6 @@
+embedded:
+  postgresql:
+    database: demo
+    user: jy
+    password: 123123
+    docker-image: postgres:alpine
