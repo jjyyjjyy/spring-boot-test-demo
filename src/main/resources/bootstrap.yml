@@ -1,4 +1,3 @@
 embedded:
   postgresql:
     docker-image: postgres:alpine
-    database: demo

@@ -75,5 +75,6 @@ public class DemoExtension implements TestInstancePostProcessor, ExecutionCondit
     @Override
     public void handleTestExecutionException(ExtensionContext context, Throwable throwable) throws Throwable {
         log.warn("ERROR: ", throwable);
+        throw throwable;
     }
 }

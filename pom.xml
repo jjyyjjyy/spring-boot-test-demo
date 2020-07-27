@@ -20,9 +20,10 @@
 
         <!-- dependencies -->
         <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
-        <spring-cloud.version>Hoxton.SR5</spring-cloud.version>
+        <spring-cloud.version>Hoxton.SR6</spring-cloud.version>
+        <mybatis-plus.version>3.3.2</mybatis-plus.version>
         <testcontainers.version>1.14.3</testcontainers.version>
-        <testcontainers-spring-boot.version>1.76</testcontainers-spring-boot.version>
+        <testcontainers-spring-boot.version>1.78</testcontainers-spring-boot.version>
 
     </properties>
     <dependencyManagement>
@@ -78,7 +79,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.3.2</version>
+            <version>${mybatis-plus.version}</version>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
